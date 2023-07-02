@@ -56,17 +56,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -235,44 +227,24 @@
       ],
       "async": false
     },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/posts/page:static/chunks/app/posts/page.js"
       ],
       "async": false
     },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/posts/page:static/chunks/app/posts/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/layout": {
       "modules": [
         "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/globals.css",
@@ -280,6 +252,22 @@
       ],
       "files": [
         "static/css/app/layout.css"
+      ]
+    },
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/aboutUs/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/[postId]/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/page": {
+      "modules": [
+        "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/index.module.scss"
+      ],
+      "files": [
+        "static/css/app/posts/page.css"
       ]
     }
   }

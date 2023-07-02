@@ -7,7 +7,7 @@ const getData = async () => {
       //   next: { revalidate: 10 },
       body: JSON.stringify({
         num: 0,
-        orderBy: 1,
+        // orderBy: 1,
         search: "",
         size: 10,
       }),
@@ -24,6 +24,11 @@ const getData = async () => {
 
 import Link from "next/link";
 import style from './index.module.scss'
+
+export const metadata = {
+  title: 'posts',
+  description: 'postsList',
+}
 async function Posts() {
   const listData = await getData();
 
