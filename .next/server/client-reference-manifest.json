@@ -55,14 +55,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -226,25 +218,13 @@
         "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
-    },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/posts/page:static/chunks/app/posts/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/posts/page:static/chunks/app/posts/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/layout": {
       "modules": [
         "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/globals.css",
@@ -254,21 +234,21 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/aboutUs/page": {
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/(user)/layout": {
       "modules": [],
       "files": []
     },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/[postId]/page": {
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/(user)/account/page": {
       "modules": [],
       "files": []
     },
-    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/page": {
-      "modules": [
-        "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/posts/index.module.scss"
-      ],
-      "files": [
-        "static/css/app/posts/page.css"
-      ]
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/(org)/layout": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/gfiur/Desktop/workspace/gitHub/next001/webApp/app/(org)/orgList/page": {
+      "modules": [],
+      "files": []
     }
   }
 }

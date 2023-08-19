@@ -1,5 +1,6 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/posts/page": "app/posts/page.js",
-  "/posts/[postId]/page": "app/posts/[postId]/page.js"
+  "/page": "app/page.js",
+  "/(org)/account/page": "app/(org)/account/page.js",
+  "/(org)/orgList/page": "app/(org)/orgList/page.js",
+  "/(user)/account/page": "app/(user)/account/page.js"
 }
